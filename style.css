@@ -1,0 +1,98 @@
+
+/* ===== NAGŁÓWEK ===== */
+#naglowek {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+}
+
+#naglowek h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#naglowek p {
+    font-size: 14px;
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+/* ===== BANER ===== */
+#baner {
+    background-image: url('https://picsum.photos/1200/300?random=1');
+    background-size: cover;
+    background-position: center;
+    background-color: #16a085;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#baner h2 {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+
+#baner p {
+    font-size: 18px;
+    font-style: italic;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+/* ===== SEKCJA TREŚCI ===== */
+#tresc {
+    width: 100%;
+    background-color: #ecf0f1;
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+/* ===== WPISY (jak posty z Facebooka) ===== */
+.wpis {
+    width: 80%;
+    margin: 15px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.wpis .autor {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+}
+
+.wpis .data {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.wpis .tekst {
+    font-size: 15px;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.wpis .reakcje {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    color: #3498db;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
